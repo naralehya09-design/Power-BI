@@ -85,20 +85,4 @@ A <b>Filled Map</b> is a geographic visualization where regions such as
   <li>Commonly used for performance analysis</li>
 </ul>
 
-<p>
-Example: Comparing profit across states using color gradients.
-</p>
-<h2>✅ Summary</h2>
-
-<p>
-This project demonstrates my understanding of:
-</p>
-
-<ul>
-  <li>Power BI fundamentals</li>
-  <li>Exploratory Data Analysis (EDA)</li>
-  <li>Normal Map visualization</li>
-  <li>Filled Map visualization</li>
-  <li>Color concepts used in Power BI</li>
-</ul>
 
