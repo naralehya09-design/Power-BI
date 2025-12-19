@@ -128,33 +128,6 @@ The Number Card helps stakeholders quickly monitor performance and make data-dri
 It is especially useful for executive dashboards where only critical metrics matter.
 </p>
 
-<h3>🖼️ Sample Visualization</h3>
-
-<p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/2784/2784065.png" 
-       alt="Power BI Number Card Example" 
-       width="350"/>
-</p>
-
-<p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/3029/3029338.png" 
-       alt="Power BI KPI Card Dashboard" 
-       width="350"/>
-</p>
-
-<p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" 
-       alt="Power BI Dashboard Metrics" 
-       width="350"/>
-</p>
-
-<h3>📂 File Information</h3>
-<p>
-The Power BI report containing this Number Card visualization has been uploaded to this repository 
-for reference and further enhancement.
-</p>
-
-<hr>
 
   <li>Uses color intensity to represent data</li>
   <li>Best for regional comparison</li>
