@@ -80,6 +80,82 @@ A <b>Filled Map</b> is a geographic visualization where regions such as
 <p><b>Key Features:</b></p>
 
 <ul>
+  <hr>
+
+<h2>📊 Number Card Visualization</h2>
+
+<p>
+The <strong>Number Card</strong> visual in Power BI is used to display key performance indicators (KPIs) 
+and important summary metrics in a clean and easily readable format. 
+It highlights single, high-level values that help users quickly understand business performance.
+</p>
+
+<h3>🔍 Purpose of Number Card</h3>
+<ul>
+  <li>Showcase key business metrics at a glance</li>
+  <li>Provide quick insights without complex charts</li>
+  <li>Act as KPI indicators in dashboards</li>
+</ul>
+
+<h3>📌 Metrics Displayed</h3>
+<ul>
+  <li><strong>Total Sales</strong></li>
+  <li><strong>Total Profit</strong></li>
+  <li><strong>Total Units Sold</strong></li>
+  <li><strong>Average Discount</strong></li>
+</ul>
+
+<h3>🛠️ Implementation Steps</h3>
+<ol>
+  <li>Load the dataset into Power BI</li>
+  <li>Create required measures using DAX</li>
+  <li>Select the <strong>Card</strong> visual from the Visualizations pane</li>
+  <li>Drag the measure into the card visual</li>
+  <li>Apply formatting such as font size, color, and background</li>
+</ol>
+
+<h3>✨ Key Features</h3>
+<ul>
+  <li>Simple and minimal design</li>
+  <li>Highly customizable formatting</li>
+  <li>Supports dynamic updates with filters and slicers</li>
+  <li>Improves dashboard readability</li>
+</ul>
+
+<h3>📈 Business Insights</h3>
+<p>
+The Number Card helps stakeholders quickly monitor performance and make data-driven decisions. 
+It is especially useful for executive dashboards where only critical metrics matter.
+</p>
+
+<h3>🖼️ Sample Visualization</h3>
+
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/2784/2784065.png" 
+       alt="Power BI Number Card Example" 
+       width="350"/>
+</p>
+
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/3029/3029338.png" 
+       alt="Power BI KPI Card Dashboard" 
+       width="350"/>
+</p>
+
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" 
+       alt="Power BI Dashboard Metrics" 
+       width="350"/>
+</p>
+
+<h3>📂 File Information</h3>
+<p>
+The Power BI report containing this Number Card visualization has been uploaded to this repository 
+for reference and further enhancement.
+</p>
+
+<hr>
+
   <li>Uses color intensity to represent data</li>
   <li>Best for regional comparison</li>
   <li>Commonly used for performance analysis</li>
