@@ -127,6 +127,55 @@ It highlights single, high-level values that help users quickly understand busin
 The Number Card helps stakeholders quickly monitor performance and make data-driven decisions. 
 It is especially useful for executive dashboards where only critical metrics matter.
 </p>
+<section>
+  <h2>📊 Bar Charts in Power BI</h2>
+
+  <p>
+    Bar Charts are one of the most commonly used visuals in Power BI. 
+    They help compare values across different categories and are widely 
+    used for performance analysis and trend comparison.
+  </p>
+
+  <h3>🔹 Bar Chart vs Column Chart</h3>
+  <ul>
+    <li><strong>Bar Chart</strong> represents data in a <strong>horizontal</strong> direction.</li>
+    <li><strong>Column Chart</strong> represents data in a <strong>vertical</strong> direction.</li>
+    <li>Both visuals are used to compare values across categories.</li>
+  </ul>
+
+  <h3>🔹 Stacked & 100% Stacked Charts</h3>
+  <ul>
+    <li><strong>Stacked Bar / Column Chart</strong> shows the contribution of each category to the total.</li>
+    <li><strong>100% Stacked Bar / Column Chart</strong> focuses on <strong>percentage distribution</strong>.</li>
+    <li>In 100% stacked charts, <strong>value count equality does not matter</strong>; only proportions are compared.</li>
+  </ul>
+
+  <h3>🔹 Histogram Concept</h3>
+  <ul>
+    <li>A <strong>Histogram</strong> is used to analyze data between defined <strong>intervals (bins)</strong>.</li>
+    <li>It is mainly used for frequency distribution analysis.</li>
+    <li><strong>Note:</strong> Histogram is <strong>not directly available</strong> as a default visual in Power BI.</li>
+  </ul>
+
+  <h3>🔹 Types of Data Analysis</h3>
+  <ol>
+    <li><strong>Univariate Analysis</strong> – Analysis of a single variable.</li>
+    <li><strong>Bivariate Analysis</strong> – Analysis between two variables.</li>
+    <li><strong>Multivariate Analysis</strong> – Analysis involving more than two variables.</li>
+  </ol>
+
+  <h3>🔹 Types of Columns Used</h3>
+  <ul>
+    <li><strong>Numerical Column</strong> – Used for values like Sales, Profit, Quantity.</li>
+    <li><strong>Categorical Column</strong> – Used for grouping such as Product, Region, Category.</li>
+    <li><strong>Date Column</strong> – Used for time-based analysis like Year, Month, Day.</li>
+  </ul>
+
+  <p>
+    Bar and Column charts play a crucial role in business dashboards 
+    by providing clear comparisons, trends, and distribution insights.
+  </p>
+</section>
 
 
   <li>Uses color intensity to represent data</li>
