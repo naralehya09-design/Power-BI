@@ -244,7 +244,7 @@ It is especially useful for executive dashboards where only critical metrics mat
 
   <hr>
 
-  <h3>📌 Conclusion</h3>
+  <h3>📌 Table and matrix Uses</h3>
   <p>
     Both <strong>Table</strong> and <strong>Matrix</strong> visuals are powerful tools
     for detailed analysis using color formatting. However, they are best used with
