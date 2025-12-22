@@ -1,4 +1,4 @@
-<h1 align="center">📊 Power BI</h1>
+<h1 align="center">📊 POWER BI VISUALIZATIONS </h1>
 
 <p>
 Power BI is a powerful <b>EDA (Exploratory Data Analysis)</b> and <b>data visualization tool</b> 
@@ -176,7 +176,81 @@ It is especially useful for executive dashboards where only critical metrics mat
     by providing clear comparisons, trends, and distribution insights.
   </p>
 </section>
+<section>
+  <h2>📊 Table and Matrix Visuals in Power BI</h2>
 
+  <p>
+    Table and Matrix visuals are mainly used for <strong>detailed data analysis</strong>.
+    They help users understand <strong>profit, loss, averages</strong>, and patterns clearly
+    using <strong>color-based conditional formatting</strong>.
+  </p>
+
+  <hr>
+
+  <h3>📋 Table Visual</h3>
+  <p>
+    A <strong>Table visual</strong> displays data in a simple row and column format,
+    making it easy to analyze individual values.
+  </p>
+
+  <h4>✅ Advantages of Table</h4>
+  <ul>
+    <li>Helps identify <strong>Profit, Loss, and Average values</strong> using color formatting.</li>
+    <li>Easy to design and understand.</li>
+    <li>Best suited for <strong>small datasets</strong>.</li>
+    <li>Conditional formatting highlights performance (Green = Profit, Red = Loss).</li>
+  </ul>
+
+  <h4>⚠️ Limitations of Table</h4>
+  <ul>
+    <li>Not effective for very large datasets.</li>
+    <li>For example, visualizing data of <strong>1,00,000 people</strong> is not practical.</li>
+    <li>Scrolling large tables reduces readability and performance.</li>
+  </ul>
+
+  <hr>
+
+  <h3>🧮 Matrix Visual</h3>
+  <p>
+    A <strong>Matrix visual</strong> is an advanced version of a table that supports
+    <strong>hierarchy and expansion</strong> for deep data analysis.
+  </p>
+
+  <h4>🌲 Hierarchy Example</h4>
+  <ul>
+    <li>Country</li>
+    <li>State</li>
+    <li>City</li>
+  </ul>
+
+  <p>
+    Using <strong>expand (+) and collapse (-)</strong> options, users can drill down
+    from Country → State → City to perform <strong>deep analysis</strong>.
+  </p>
+
+  <h4>✅ Advantages of Matrix</h4>
+  <ul>
+    <li>Supports <strong>hierarchy and expansion</strong>.</li>
+    <li>Enables <strong>drill-down analysis</strong>.</li>
+    <li>Color variations help identify trends and performance.</li>
+    <li>Useful for comparing data at multiple levels.</li>
+  </ul>
+
+  <h4>⚠️ Limitations of Matrix</h4>
+  <ul>
+    <li>Best suited for <strong>small to medium datasets</strong>.</li>
+    <li>Not recommended for very large volumes of data.</li>
+  </ul>
+
+  <hr>
+
+  <h3>📌 Conclusion</h3>
+  <p>
+    Both <strong>Table</strong> and <strong>Matrix</strong> visuals are powerful tools
+    for detailed analysis using color formatting. However, they are best used with
+    <strong>limited data</strong> to maintain clarity, performance, and readability.
+  </p>
+</section>
 
   <li>Uses color intensity to represent data</li>
   <li>Best for regional comparison</li>
