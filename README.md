@@ -251,163 +251,95 @@ It is especially useful for executive dashboards where only critical metrics mat
     <strong>limited data</strong> to maintain clarity, performance, and readability.
   </p>
 </section>
-<h1>Charts</h1>
-
-<hr>
-
-<h2>Funnel Chart</h2>
-<p>
-A <b>Funnel Chart</b> is used to represent data in stages and visualize the gradual reduction
-of values through a process. It is commonly used in sales pipelines, recruitment processes,
-and conversion analysis.
+<!-- BADGES SECTION -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Tool-Power%20BI-yellow?style=for-the-badge&logo=powerbi" />
+  <img src="https://img.shields.io/badge/Visualization-Dashboard-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Level-Beginner%20to%20Intermediate-orange?style=for-the-badge" />
 </p>
 
-<ul>
-  <li>Shows stage-wise drop-off</li>
-  <li>Helps identify bottlenecks</li>
-  <li>Easy to interpret process flow</li>
-</ul>
-
 <hr>
 
-<h2>Ribbon Chart</h2>
+<!-- PROJECT OVERVIEW WITH ICONS -->
+<h1>📊 Power BI Charts & Visualizations</h1>
+
 <p>
-A <b>Ribbon Chart</b> is used to understand the <b>connectivity and ranking of data</b> across
-different categories over time. The width of the ribbon represents the value, and changes
-in position show rank movement.
+This repository demonstrates <b>Power BI visualizations</b> created during hands-on learning.
+It includes standard charts, advanced visuals, integrations, and documentation concepts.
 </p>
 
+<hr>
+
+<h2>📈 Charts Covered</h2>
+
 <ul>
-  <li>Tracks rank changes over time</li>
-  <li>Highlights dominance and trends</li>
-  <li>Useful for competitive analysis</li>
+  <li>🔻 <b>Funnel Chart</b> – Stage-wise data reduction</li>
+  <li>🎗️ <b>Ribbon Chart</b> – Data connectivity and ranking</li>
+  <li>🟩 <b>Tree Map</b> – Hierarchical data visualization</li>
+  <li>📉 <b>Line & Stacked Column Chart</b> – Trend vs total comparison</li>
+  <li>📊 <b>Line & Clustered Column Chart</b> – Category-wise comparison</li>
 </ul>
 
 <hr>
 
-<h2>Tree Map</h2>
-<p>
-A <b>Tree Map</b> displays hierarchical data using nested rectangles.
-The size of each rectangle represents the magnitude of values.
+<h2>🧩 Power BI Visualizations List</h2>
+
+<ul>
+  <li>📊 Bar & Column Charts (Stacked, Clustered, 100%)</li>
+  <li>📈 Line, Area & Stacked Area Charts</li>
+  <li>🎗️ Ribbon Chart</li>
+  <li>🔻 Funnel Chart</li>
+  <li>🎯 Scatter Chart</li>
+  <li>🥧 Pie & Donut Charts</li>
+  <li>🟩 Tree Map</li>
+  <li>🗺️ Normal Map & Filled Map</li>
+  <li>🧮 Card, Table & Matrix</li>
+  <li>🎚️ Slicer</li>
+</ul>
+
+<hr>
+
+<h2>🔌 Power BI Integrations</h2>
+
+<ul>
+  <li>📉 Waterfall Chart</li>
+  <li>🗺️ Azure Maps & Arc GIS</li>
+  <li>⏱️ KPI & Gauge</li>
+  <li>📄 Paginated Reports</li>
+  <li>🐍 Python Visual</li>
+  <li>📊 R Script Visual</li>
+  <li>🌳 Decomposition Tree</li>
+  <li>🧠 Key Influencers</li>
+  <li>💬 Q & A Visual</li>
+  <li>📜 Narrative</li>
+  <li>🎯 Goals (Preview)</li>
+  <li>⚙️ Power Apps & Power Automate</li>
+</ul>
+
+<hr>
+
+<h2>📚 Documentation vs 📊 Dashboard</h2>
+
+<h3>📚 Documentation</h3>
+<ul>
+  <li>🧠 Interpret insights from data</li>
+  <li>💡 Suggest improvements for business growth</li>
+  <li>📈 Focus on analysis and recommendations</li>
+</ul>
+
+<h3>📊 Dashboard</h3>
+<ul>
+  <li>📌 Summarized data representation</li>
+  <li>⚡ Quick insights for decision-making</li>
+  <li>👁️ Focus on visuals and monitoring</li>
+</ul>
+
+<hr>
+
+<p align="center">
+  🚀 <b>Created using Microsoft Power BI</b>
 </p>
 
-<h4>Use Cases</h4>
-<ul>
-  <li>Category-wise contribution analysis</li>
-  <li>Quick comparison of proportions</li>
-</ul>
-
-<h4>Drawbacks of Tree Map</h4>
-<ul>
-  <li>Complex to understand the visualization</li>
-  <li>Occupies a huge amount of space in EDA</li>
-</ul>
-
-<hr>
-
-<h2>Line and Stacked Column Chart</h2>
-<p>
-This combo chart displays <b>stacked column data</b> along with a <b>line chart</b>.
-It is useful when comparing total values with trends.
-</p>
-
-<ul>
-  <li>Columns show category-wise totals</li>
-  <li>Line shows trend or KPI comparison</li>
-</ul>
-
-<hr>
-
-<h2>Line and Clustered Column Chart</h2>
-<p>
-This visual combines <b>clustered columns</b> with a <b>line chart</b>.
-It helps compare individual category values along with overall trends.
-</p>
-
-<ul>
-  <li>Better comparison across categories</li>
-  <li>Ideal for sales vs target analysis</li>
-</ul>
-
-<hr>
-
-<h2>List of Power BI Visualizations</h2>
-
-<ol>
-  <li>Stacked Bar Chart</li>
-  <li>Stacked Column Chart</li>
-  <li>Clustered Bar Chart</li>
-  <li>Clustered Column Chart</li>
-  <li>100% Stacked Bar Chart</li>
-  <li>100% Column Bar Chart</li>
-  <li>Line Chart</li>
-  <li>Area Chart</li>
-  <li>Stacked Area Chart</li>
-  <li>100% Stacked Area Chart</li>
-  <li>Line and Stacked Column Chart</li>
-  <li>Line and Clustered Column Chart</li>
-  <li>Ribbon Chart</li>
-  <li>Funnel Chart</li>
-  <li>Scatter Chart</li>
-  <li>Pie Chart</li>
-  <li>Donut Chart</li>
-  <li>Tree Map</li>
-  <li>Normal Map</li>
-  <li>Filled Map</li>
-  <li>Card</li>
-  <li>Slicer</li>
-  <li>Table</li>
-  <li>Matrix</li>
-</ol>
-
-<hr>
-
-<h2>Power BI Integrations</h2>
-
-<ol>
-  <li>Waterfall Chart</li>
-  <li>Azure Maps</li>
-  <li>Gauge</li>
-  <li>Card</li>
-  <li>Multi Row Card</li>
-  <li>KPI</li>
-  <li>R Script Visual</li>
-  <li>Python Visual</li>
-  <li>Key Influencers</li>
-  <li>Decomposition Tree</li>
-  <li>Q & A</li>
-  <li>Narrative</li>
-  <li>Goals (Preview)</li>
-  <li>Paginated Report</li>
-  <li>Button Slicer</li>
-  <li>Image</li>
-  <li>Arc GIS for Power BI</li>
-  <li>Power Apps for Power BI</li>
-  <li>Power Automate for Power BI</li>
-</ol>
-
-<hr>
-
-<h2>Difference Between Documentation and Dashboard</h2>
-
-<h3>Documentation</h3>
-<ul>
-  <li>Implement insights based on data understanding</li>
-  <li>Provide suggestions to improve business value</li>
-  <li>Focuses on analysis and recommendations</li>
-</ul>
-
-<h3>Dashboard</h3>
-<ul>
-  <li>Represents summarized insights</li>
-  <li>Focuses on visualization and monitoring</li>
-  <li>Quick decision-making support</li>
-</ul>
-
-
-  <li>Uses color intensity to represent data</li>
-  <li>Best for regional comparison</li>
-  <li>Commonly used for performance analysis</li>
-</ul>
 
 
