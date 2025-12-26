@@ -262,7 +262,7 @@ It is especially useful for executive dashboards where only critical metrics mat
 <hr>
 
 <!-- PROJECT OVERVIEW WITH ICONS -->
-<h1>📊 Power BI Charts & Visualizations</h1>
+<h1>📊 Charts </h1>
 
 <p>
 This repository demonstrates <b>Power BI visualizations</b> created during hands-on learning.
