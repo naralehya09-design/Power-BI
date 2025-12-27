@@ -336,6 +336,115 @@ It includes standard charts, advanced visuals, integrations, and documentation c
 </ul>
 
 <hr>
+<hr>
+
+<h1 align="center">🛒 SUPER MARKET DETAIL INSIGHT</h1>
+
+<h2>📌 What I Understood</h2>
+
+<ul>
+  <li>
+    The given dataset belongs to the <strong>United States</strong>, covering:
+    <ul>
+      <li><strong>49 States</strong></li>
+      <li><strong>531 Super Market Branches</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<h2>🌎 Regional Classification</h2>
+
+<p>The 49 states are grouped into <strong>4 major regions</strong>:</p>
+
+<h3>📍 East Region</h3>
+<p>
+  New York, Pennsylvania, Ohio, New Jersey, Massachusetts, Delaware, Maryland,
+  Rhode Island, Connecticut, Vermont, New Hampshire, District of Columbia,
+  Maine, West Virginia
+</p>
+
+<h3>📍 West Region</h3>
+<p>
+  California, Washington, Arizona, Colorado, Oregon, Nevada, Utah, Montana,
+  New Mexico, Idaho, Wyoming
+</p>
+
+<h3>📍 Central Region</h3>
+<p>
+  Texas, Illinois, Michigan, Indiana, Wisconsin, Minnesota, Missouri,
+  Oklahoma, Nebraska, Iowa, Kansas, South Dakota, North Dakota
+</p>
+
+<h3>📍 South Region</h3>
+<p>
+  Florida, Virginia, North Carolina, Georgia, Kentucky, Tennessee, Alabama,
+  Arkansas, Mississippi, Louisiana, South Carolina
+</p>
+
+<h2>👥 Customer Information</h2>
+
+<ul>
+  <li>The client has provided <strong>4 years of Real Canadian Super Market data</strong></li>
+  <li>Total number of customers: <strong>9,994</strong></li>
+  <li>Customers are divided into <strong>three segments</strong>:
+    <ul>
+      <li>Consumers</li>
+      <li>Corporate</li>
+      <li>Home Office</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>📦 Product Structure</h2>
+
+<p>
+  The Super Market dataset contains <strong>17 products</strong> categorized into
+  <strong>3 main categories</strong>:
+</p>
+
+<h3>💻 Technology</h3>
+<ul>
+  <li>Phones</li>
+  <li>Accessories</li>
+  <li>Machines</li>
+  <li>Copiers</li>
+</ul>
+
+<h3>📎 Office Supplies</h3>
+<ul>
+  <li>Binders</li>
+  <li>Papers</li>
+  <li>Storage</li>
+  <li>Art</li>
+  <li>Appliances</li>
+  <li>Labels</li>
+  <li>Envelopes</li>
+  <li>Fasteners</li>
+  <li>Supplies</li>
+</ul>
+
+<h3>🪑 Furniture</h3>
+<ul>
+  <li>Furnishings</li>
+  <li>Chairs</li>
+  <li>Tables</li>
+  <li>Bookcases</li>
+</ul>
+
+<h2>📊 Overall Business Performance</h2>
+
+<ul>
+  <li><strong>Total Sales:</strong> 2,297,200.86</li>
+  <li><strong>Total Profit:</strong> 286,000</li>
+</ul>
+
+<p>
+  This Power BI project provides a detailed insight into regional performance,
+  customer segmentation, product categories, and overall business profitability,
+  helping stakeholders make data-driven decisions.
+</p>
+
+<hr>
 
 <p align="center">
   🚀 <b>Created using Microsoft Power BI</b>
