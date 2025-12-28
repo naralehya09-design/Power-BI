@@ -506,10 +506,6 @@ A <b>Function</b> is used to execute a predefined or designed task.
 Power BI community has already designed many built-in functions to perform transformations efficiently.
 </p>
 
-
-::contentReference[oaicite:1]{index=1}
-
-
 <hr>
 
 <h2>🧰 Common Options Available in Power Query</h2>
