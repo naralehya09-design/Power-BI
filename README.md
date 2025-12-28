@@ -445,6 +445,193 @@ It includes standard charts, advanced visuals, integrations, and documentation c
 </p>
 
 <hr>
+<h1>🔄 Power Query in Power BI</h1>
+
+<p>
+<b>Power Query</b> is a powerful data transformation engine in Power BI used to shape, structure,
+and prepare raw data according to business and project requirements.
+It is developed using the <b>M Query Language</b>.
+</p>
+
+<hr>
+
+<h2>📌 What is Power Query?</h2>
+
+<p>
+Power Query is mainly used for <b>Data Transformation</b>, not for statistical data cleaning.
+It helps convert raw data into a structured format suitable for analysis and visualization.
+</p>
+
+
+::contentReference[oaicite:0]{index=0}
+
+
+<hr>
+
+<h2>🧹 Data Cleaning vs 🔄 Data Transformation</h2>
+
+<h3>❌ Data Cleaning</h3>
+<p>
+Data cleaning involves handling data using <b>statistical knowledge</b>.
+Power BI is <b>not primarily used</b> for data cleaning.
+</p>
+
+<ul>
+<li>Handling Outliers</li>
+<li>Filling missing values using mean, median, or mode</li>
+<li>Applying statistical rules</li>
+</ul>
+
+<h3>✅ Data Transformation</h3>
+<p>
+Data Transformation means converting data into a <b>user-required format</b> without applying
+statistical rules.
+</p>
+
+<ul>
+<li>Changing column structure</li>
+<li>Formatting data</li>
+<li>Making data project-ready</li>
+<li>Performing EDA (Exploratory Data Analysis)</li>
+</ul>
+
+<p><b>✔ Power BI is mainly used for Data Transformation.</b></p>
+
+<hr>
+
+<h2>⚙️ Functions in Power Query</h2>
+
+<p>
+A <b>Function</b> is used to execute a predefined or designed task.
+Power BI community has already designed many built-in functions to perform transformations efficiently.
+</p>
+
+
+::contentReference[oaicite:1]{index=1}
+
+
+<hr>
+
+<h2>🧰 Common Options Available in Power Query</h2>
+
+<h3>📂 Data Management</h3>
+<ul>
+<li>Delete unwanted columns</li>
+<li>Filter rows</li>
+<li>Undo data steps</li>
+<li>Remove rows having null values</li>
+<li>Close & Apply</li>
+<li>New Source</li>
+<li>Recent Source</li>
+<li>Enter Data</li>
+</ul>
+
+<h3>📁 Manage Queries</h3>
+<ul>
+<li>Delete</li>
+<li>Duplicate</li>
+<li>Reference</li>
+</ul>
+
+<hr>
+
+<h2>📑 Column Operations</h2>
+<ul>
+<li>Choose Columns</li>
+<li>Remove Columns</li>
+<li>Keep Rows</li>
+<li>Remove Rows</li>
+<li>Ascending Order</li>
+<li>Descending Order</li>
+<li>Replace Values</li>
+<li>Use First Row as Header</li>
+<li>Group By</li>
+</ul>
+
+
+::contentReference[oaicite:2]{index=2}
+
+
+<hr>
+
+<h2>🔤 Text & Split Column Operations</h2>
+
+<h3>Text Column Options</h3>
+<ul>
+<li>Lower Case</li>
+<li>Upper Case</li>
+<li>Capitalize Each Word</li>
+<li>Trim / Clean (Remove white spaces)</li>
+<li>Add Prefix</li>
+<li>Add Suffix</li>
+</ul>
+
+<h3>Split Column Methods</h3>
+<ul>
+<li>By Delimiter</li>
+<li>By Number of Characters</li>
+<li>By Position</li>
+<li>Lowercase to Uppercase</li>
+<li>Uppercase to Lowercase</li>
+<li>Digit to Non-Digit</li>
+<li>Non-Digit to Digit</li>
+</ul>
+
+
+::contentReference[oaicite:3]{index=3}
+
+
+<hr>
+
+<h2>📐 Mathematical & Date Operations</h2>
+
+<ul>
+<li>Standard Functions</li>
+<li>Trigonometry</li>
+<li>Rounding</li>
+<li>Date & Time Columns</li>
+<li>Reverse Rows</li>
+</ul>
+
+<hr>
+
+<h2>🔗 Advanced Query Operations</h2>
+
+<ul>
+<li>Merge Columns</li>
+<li>Merge Queries</li>
+<li>Append Queries</li>
+<li>Pivot Column</li>
+<li>Unpivot Column</li>
+</ul>
+
+
+::contentReference[oaicite:4]{index=4}
+
+
+<hr>
+
+<h2>🐍📊 Scripting Integration</h2>
+
+<ul>
+<li>Run Python Script</li>
+<li>Run R Script</li>
+</ul>
+
+<p>
+These options allow advanced data manipulation using Python and R within Power BI.
+</p>
+
+<hr>
+
+<h2>✅ Conclusion</h2>
+
+<p>
+Power Query is a vital component of Power BI that enables efficient data transformation.
+It helps convert raw data into structured, analysis-ready data without applying statistical rules,
+making it ideal for business intelligence and dashboard development.
+</p>
+
 
 <p align="center">
   🚀 <b>Created using Microsoft Power BI</b>
