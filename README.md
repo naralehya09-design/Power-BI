@@ -544,10 +544,6 @@ Power BI community has already designed many built-in functions to perform trans
 <li>Group By</li>
 </ul>
 
-
-::contentReference[oaicite:2]{index=2}
-
-
 <hr>
 
 <h2>🔤 Text & Split Column Operations</h2>
@@ -573,10 +569,6 @@ Power BI community has already designed many built-in functions to perform trans
 <li>Non-Digit to Digit</li>
 </ul>
 
-
-::contentReference[oaicite:3]{index=3}
-
-
 <hr>
 
 <h2>📐 Mathematical & Date Operations</h2>
@@ -601,10 +593,6 @@ Power BI community has already designed many built-in functions to perform trans
 <li>Unpivot Column</li>
 </ul>
 
-
-::contentReference[oaicite:4]{index=4}
-
-
 <hr>
 
 <h2>🐍📊 Scripting Integration</h2>
@@ -619,8 +607,6 @@ These options allow advanced data manipulation using Python and R within Power B
 </p>
 
 <hr>
-
-<h2>✅ Conclusion</h2>
 
 <p>
 Power Query is a vital component of Power BI that enables efficient data transformation.
