@@ -706,5 +706,226 @@ between columns and tables, especially when working with multiple datasets.
   🚀 <b>Created using Microsoft Power BI</b>
 </p>
 
+<h1>DAX (Data Analysis Expressions)</h1>
+
+<p>
+<b>DAX</b> stands for <b>Data Analysis Expressions</b>. 
+Instead of using the Power BI interface for calculations, 
+we can write formulas using DAX language to perform data analysis.
+</p>
+
+<p>
+DAX is mainly used to create:
+</p>
+
+<ul>
+  <li><b>New Measure</b></li>
+  <li><b>New Column</b></li>
+  <li><b>New Table</b></li>
+</ul>
+
+<hr>
+
+<h2>1. New Measure</h2>
+<p>
+A <b>New Measure</b> is used when the final output is a <b>single value</b>.
+It is mostly used for calculations such as totals, averages, percentages, etc.
+</p>
+
+<p><b>Rule:</b> If the output is a single value, always choose <b>New Measure</b>.</p>
+
+<pre>
+Total Sales = SUM(Sales[SalesAmount])
+</pre>
+
+<hr>
+
+<h2>2. New Column</h2>
+<p>
+A <b>New Column</b> creates a calculated column row by row.
+It is stored in the table and evaluated for each record.
+</p>
+
+<pre>
+Profit = Sales[SalesAmount] - Sales[Cost]
+</pre>
+
+<hr>
+
+<h2>3. New Table</h2>
+<p>
+A <b>New Table</b> is used when we want to create a completely new table 
+from existing tables (similar to creating a new Excel sheet from another sheet).
+</p>
+
+<pre>
+Sales Summary =
+SUMMARIZE(
+    Sales,
+    Sales[Region],
+    "Total Sales", SUM(Sales[SalesAmount])
+)
+</pre>
+
+<hr>
+
+<h1>Levels of DAX Formulas</h1>
+
+<ul>
+  <li><b>Basic DAX</b></li>
+  <li><b>Intermediate DAX</b></li>
+  <li><b>Advanced DAX</b></li>
+</ul>
+
+<hr>
+
+<h2>Basic DAX Functions</h2>
+<p>Basic DAX functions are simple aggregation functions.</p>
+
+<h3>1. SUM</h3>
+<pre>
+SUM(ColumnName)
+</pre>
+<pre>
+Total Sales = SUM(Sales[SalesAmount])
+</pre>
+
+<h3>2. MIN</h3>
+<pre>
+MIN(ColumnName)
+</pre>
+<pre>
+Minimum Sales = MIN(Sales[SalesAmount])
+</pre>
+
+<h3>3. MAX</h3>
+<pre>
+MAX(ColumnName)
+</pre>
+<pre>
+Maximum Sales = MAX(Sales[SalesAmount])
+</pre>
+
+<h3>4. AVERAGE</h3>
+<pre>
+AVERAGE(ColumnName)
+</pre>
+<pre>
+Average Sales = AVERAGE(Sales[SalesAmount])
+</pre>
+
+<hr>
+
+<h2>Intermediate DAX Functions</h2>
+<p>
+Intermediate DAX functions work with <b>row context</b> and 
+<b>filter context</b>.
+</p>
+
+<h3>1. SUMX</h3>
+<p>
+SUMX is an iterator function. It evaluates expressions row by row.
+</p>
+
+<pre>
+SUMX(Table, Expression)
+</pre>
+
+<pre>
+Total Profit =
+SUMX(
+    Sales,
+    Sales[SalesAmount] - Sales[Cost]
+)
+</pre>
+
+<h3>2. CALCULATE</h3>
+<p>
+CALCULATE is used to modify filter context.
+</p>
+
+<pre>
+CALCULATE(Expression, Filter)
+</pre>
+
+<pre>
+Sales in 2024 =
+CALCULATE(
+    SUM(Sales[SalesAmount]),
+    Sales[Year] = 2024
+)
+</pre>
+
+<h3>3. FILTER</h3>
+<p>
+FILTER returns a table based on a condition.
+</p>
+
+<pre>
+FILTER(Table, Condition)
+</pre>
+
+<pre>
+High Sales =
+FILTER(
+    Sales,
+    Sales[SalesAmount] > 50000
+)
+</pre>
+
+<hr>
+
+<h2>Advanced DAX Functions</h2>
+
+<h3>1. IF</h3>
+<p>
+IF function is used for conditional logic.
+</p>
+
+<pre>
+IF(Condition, Value_if_True, Value_if_False)
+</pre>
+
+<pre>
+Sales Status =
+IF(
+    Sales[SalesAmount] > 50000,
+    "High Sales",
+    "Low Sales"
+)
+</pre>
+
+<h3>2. SWITCH</h3>
+<p>
+SWITCH is used as an alternative to multiple IF conditions.
+</p>
+
+<pre>
+SWITCH(
+    Expression,
+    Value1, Result1,
+    Value2, Result2,
+    DefaultResult
+)
+</pre>
+
+<pre>
+Sales Category =
+SWITCH(
+    TRUE(),
+    Sales[SalesAmount] > 70000, "Excellent",
+    Sales[SalesAmount] > 40000, "Good",
+    "Average"
+)
+</pre>
+
+<hr>
+
+<p>
+DAX plays a crucial role in Power BI for performing calculations, 
+creating measures, columns, and tables. Understanding Basic, 
+Intermediate, and Advanced DAX functions helps in building 
+efficient and dynamic reports.
+</p>
 
 
