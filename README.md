@@ -627,6 +627,93 @@ Power Query is a vital component of Power BI that enables efficient data transfo
 It helps convert raw data into structured, analysis-ready data without applying statistical rules,
 making it ideal for business intelligence and dashboard development.
 </p>
+<h2>🔗 Model View in Power BI</h2>
+
+<p>
+Model View is a powerful feature in Power BI that is mainly used to
+<strong>define, manage, and analyze relationships</strong> between tables.
+When we deal with <strong>multiple clients or multiple data sources</strong>,
+Model View plays a crucial role in connecting the data correctly.
+</p>
+
+<h3>📌 Purpose of Model View</h3>
+<ul>
+  <li>Used to find and manage relationships between tables</li>
+  <li>Helps understand how data flows across different tables</li>
+  <li>Works with single Excel sheets or multiple Excel sheets</li>
+  <li>Ensures accurate calculations and visuals in reports</li>
+</ul>
+
+<h3>📊 Example Explanation</h3>
+<p>
+Consider an example where <strong>Salary</strong> depends on
+<strong>Experience</strong>.  
+Here, we can say that there is a <strong>relationship between the Experience
+column and the Salary column</strong>.
+</p>
+
+<p>
+To verify whether a relationship exists or not, we use
+<strong>Model View</strong>. It visually displays how columns and tables
+are connected.
+</p>
+
+<h3>🔗 Types of Relationships in Power BI</h3>
+
+<h4>1️⃣ One-to-One (1 : 1)</h4>
+<p>
+In a one-to-one relationship, each value in one table is related to
+only one value in another table.
+</p>
+<p><strong>Example:</strong> Employee table ↔ Employee Profile table  
+(Each employee has only one profile)
+</p>
+
+<h4>2️⃣ One-to-Many (1 : Many)</h4>
+<p>
+This is the <strong>most commonly used relationship</strong> in Power BI.
+One value in the first table can relate to multiple values in the second table.
+</p>
+<p><strong>Example:</strong> Customer table → Sales table  
+(One customer can have many sales records)
+</p>
+
+<h4>3️⃣ Many-to-One (Many : 1)</h4>
+<p>
+This is the reverse of one-to-many. Multiple values in one table
+connect to a single value in another table.
+</p>
+<p><strong>Example:</strong> Sales table → Product table  
+(Many sales belong to one product)
+</p>
+
+<h4>4️⃣ Many-to-Many (Many : Many)</h4>
+<p>
+In a many-to-many relationship, multiple values in one table
+connect to multiple values in another table.
+</p>
+<p>
+This relationship is used when both tables contain repeating values.
+Power BI handles this using <strong>bridge tables</strong> or
+direct many-to-many connections.
+</p>
+<p><strong>Example:</strong> Students ↔ Courses  
+(A student can enroll in many courses, and a course can have many students)
+</p>
+
+<h3>✅ Benefits of Model View</h3>
+<ul>
+  <li>Provides a clear visual structure of data relationships</li>
+  <li>Improves data accuracy and report performance</li>
+  <li>Helps avoid incorrect calculations</li>
+  <li>Essential for building complex dashboards</li>
+</ul>
+
+<p>
+<strong>Conclusion:</strong>  
+Model View is essential in Power BI to establish correct relationships
+between columns and tables, especially when working with multiple datasets.
+</p>
 
 
 <p align="center">
